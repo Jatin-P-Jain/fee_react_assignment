@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 24px;
+}
+.inputContainer {
+  margin: 5% 2%;
+}
+.inputContainer,
+.amountContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+}
+.label {
+  flex: 4;
+}
+.dropdown {
+  font-size: 20px;
+  flex: 8;
+  width: 30%;
+  padding: 1%;
+}
+.amountInfo {
+  font-size: 80%;
+}
